@@ -78,6 +78,7 @@ public class User {
 
 				this.Balance -= realprice;
 				ContentBought.add(c);
+				c.Increase_NoD_by1();
 				System.out.println("Success! " + c.getApplication_Name());
 			}
 
